@@ -8,9 +8,9 @@ const PORT = 3000;
 const app = express();
 
 // Ruta inicial
-app.get('/', (req, resp) => {
+/*app.get('/', (req, resp) => {
     resp.send("Estimados Estudiantes estamos con NODEJS EN UBUNTU");
-});
+});*/
 
 // Ruta de archivos estáticos
 app.use(express.static("public"));
