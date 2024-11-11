@@ -1,1 +1,0 @@
-# reto5-culturaArtisticas
