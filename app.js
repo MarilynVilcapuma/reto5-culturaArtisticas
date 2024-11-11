@@ -5,14 +5,7 @@ const express = require('express');
 const PORT = 3000;
 
 // Objetos para llamar los métodos de express
-const app = express();
-
-// Ruta inicial
-/*app.get('/', (req, resp) => {
-    resp.send("Estimados Estudiantes estamos con NODEJS EN UBUNTU");
-});*/
-
-// Ruta de archivos estáticos
+const app = express();// Ruta de archivos estáticos
 app.use(express.static("public"));
 
 // Escucha conexiones en el puerto 3000 y muestra por consola la dirección web.
